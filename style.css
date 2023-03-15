@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+  background-color: rgb(175, 175, 175);
+}
+
+/* header */
+
+.head {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  align-items: center;
+  margin-bottom: 80px;
+  border-bottom: 2px solid #333;
+}
+
+.head h3 {
+  margin-right: 20px;
+  background-color: #333;
+  color: rgb(175, 175, 175);
+  border-radius: 55px;
+  padding: 9px 10px;
+}
+
+/* wednesday */
+
+.wednesday img {
+  width: 300px;
+  padding-left: 20px;
+}
+
+.wednesday {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 55px;
+  border-bottom: 2px solid #333;
+}
+
+.wednesday_text {
+  max-width: 450px;
+  margin-top: 50px;
+}
+
+.wednesday h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* first */
+
+.first img {
+  width: 550px;
+  padding-left: 20px;
+  padding-bottom: 55px;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  flex-direction: row;
+  border-bottom: 2px solid #333;
+}
+
+.first_text {
+  max-width: 550px;
+  margin-top: 50px;
+  padding-left: 70px;
+}
+
+/* second */
+
+.second img {
+  width: 450px;
+  padding-left: 20px;
+  padding-bottom: 55px;
+}
+
+.second {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  flex-direction: row;
+  border-bottom: 2px solid #333;
+}
+
+.second_text {
+  max-width: 550px;
+  margin-top: 50px;
+  padding-left: 70px;
+}
+
+/* third */
+
+.third img {
+  width: 500px;
+  padding-left: 20px;
+  padding-bottom: 55px;
+}
+
+.third {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  flex-direction: row;
+  border-bottom: 2px solid #333;
+}
+
+.third_text {
+  max-width: 550px;
+  margin-top: 50px;
+  padding-left: 70px;
+}
+
+/* fourth */
+
+.fourth img {
+  width: 500px;
+  padding-left: 20px;
+  padding-bottom: 55px;
+}
+
+.fourth {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  flex-direction: row;
+  border-bottom: 2px solid #333;
+}
+
+.fourth_text {
+  max-width: 550px;
+  margin-top: 50px;
+  padding-left: 70px;
+}
+
+/* end */
+
+.end {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 20px;
+}
